@@ -1,0 +1,124 @@
+* {
+    font-family: sans-serif, Arial, Helvetica ;
+}
+/* formulario.hendlebars */
+body {
+    background-color: rgb(50, 97, 199);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 20px;
+}
+
+#title{
+    text-align: center;
+    color: #fff;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 45%) 5px 5px 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+#conteudo {
+    margin-top: 10px;
+    color: #000;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    border: 1px solid #666;
+    border-radius: 3px;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+    display: block;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
+
+#enviar {
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 97, 199);
+    color: #fff;
+}
+
+#enviar:hover {
+    background-color: rgb(41, 85, 180);
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+}
+
+/* Home.handlebars */
+#listaPost {
+    color: #fff;
+    text-align: center;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 1vw 0;
+    padding: 5px;
+    border-radius: 7px;
+    overflow-x:scroll;
+}
+
+small {
+ margin-top: 8px;
+}
+
+#titleP { 
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#contentP {
+    font-weight: bold;
+    display: block;
+}
+
+#deletar {
+    display: block;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(50, 97, 199);
+    color: #fff;
+}
+
+#deletar:hover {
+    background-color: rgb(41, 85, 180);
+}
