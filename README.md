@@ -9,9 +9,22 @@ Você poderá rodar a aplicação em [https://localhost:8081](https://localhost:
 - Todas as dependências estão no arquivo package.json. Você pode instalar elas executando o seguinte comando em seu termial:<br>
 ``` nmp install ```
 -  <span style='background-color:#ffe846;'>Também será necessário estar conectado a um banco de dados MySQL local ou remoto (de preferencia a versão 5.7.36 ou superior).</span>
+-  Crie um banco de dados mysql com o nome postapp: <br>
+``` CREATE DATABASE postapp; ```
+-  Crie uma tabela com o nome de postagens e  insira os seguintes campos:<br>
+``` 
+CREATE TABLE postagens (
+    id int not null auto_increment,
+    titulo VARCHAR(200),
+    conteudo TEXT,
+    createdAt date,
+    updatedAt date,
+    PRIMARY KEY (id)
+)default charset = utf8;
+```
 
 #### A aplicação fica salva em uma tabela chamada de postagens no mysql, mas essa tabela será criada automaticamente após executar a aplicação.
-
+<br>
 
 ### Módulos usados:
 
