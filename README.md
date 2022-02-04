@@ -1,7 +1,7 @@
 ## Projeto feito em NodeJs com o objetivo de aprender nodejs e algumas de suas bibliotecas e frameworks.
 
 Foi utilizado o gerenciador de pacotes padrão no nodejs, o [_npm(Node Packge Manager\)_](https://www.npmjs.com/).<br>
-Para rodar a aplicação basta executar o comando ``` npm start ```
+Para rodar a aplicação basta instalar as dependencias listadas abaixo e executar o comando ``` npm start ``` no diretorio raiz.
 
 Você poderá rodar a aplicação em [https://localhost:8081](https://localhost:8081), mas você poderá alterar isso mudando os valores das variáveis host e port no arquivo index.js
 
