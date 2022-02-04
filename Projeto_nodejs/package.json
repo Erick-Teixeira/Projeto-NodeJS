@@ -1,8 +1,19 @@
 {
+  "name": "projeto_nodejs",
+  "version": "1.0.0",
+  "description": "Aprendendo nodejs",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Erick Teixeira",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.14.0"
+    "sequelize": "^6.14.0",
+    "nodemon": "^2.0.15"
   }
 }
