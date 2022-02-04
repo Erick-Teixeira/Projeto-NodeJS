@@ -34,7 +34,7 @@ exemplo: https://localhost:8081/cadastro
 
 ![formulario](https://user-images.githubusercontent.com/76793266/152583103-66a2e519-c1d0-4e10-8ee9-61850bdad5d8.png)
 
-```/deletar``` essa rota fica disponível quando o usuário deleta um registro do banco de dados através do diretório **/** , logo após o usuário é redirecionado de novo para o diretório ```/```.<br>
+```/deletar``` essa rota fica disponível quando o usuário deleta um registro do banco de dados através do diretório **/** , logo após o usuário é redirecionado de novo para o diretório principal.<br>
 exemplo: https://localhost:8081/deletar/18
 <br>
 
