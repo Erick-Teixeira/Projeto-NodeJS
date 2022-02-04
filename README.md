@@ -2,11 +2,12 @@
 
 Foi utilizado o gerenciador de pacotes padrão no nodejs, o [_npm(Node Packge Manager\)_](https://www.npmjs.com/).
 
-Você poderá rodar a aplicação em [https://localhost:8081](https://localhost:8081), mas você poderá alterar isso mudando os valores das variáveis host e port na pasta index.js
+Você poderá rodar a aplicação em [https://localhost:8081](https://localhost:8081), mas você poderá alterar isso mudando os valores das variáveis host e port no arquivo index.js
 
 ### Dependências:
-- Todas as dependências estão na pasta package.json
--  <span style='background-color:#ffe846;'>mas também será necessário tem um banco de dados MySQL rodando em seu sistema.</span>
+- Todas as dependências estão no arquivo package.json. Você pode instalar elas executando o seguinte comando em seu termial:<br>
+``` nmp install ```
+-  <span style='background-color:#ffe846;'>Também será necessário estar conectado a banco de dados MySQL local ou remoto (de preferencia a versão 5.7.36 ou superior).</span>
 
 #### A aplicação fica salva em uma tabela chamada de postagens no mysql, mas essa tabela será criada automaticamente após executar a aplicação.
 
