@@ -23,9 +23,6 @@ CREATE TABLE postagens (
 )default charset = utf8;
 ```
 
-#### A aplicação fica salva em uma tabela chamada de postagens no mysql, mas essa tabela será criada automaticamente após executar a aplicação.
-<br>
-
 ### Módulos usados:
 
 - Express - Foi usado para configurar e definir rotas do servidor.
