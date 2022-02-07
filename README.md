@@ -7,7 +7,7 @@ Você poderá rodar a aplicação em [https://localhost:8081](https://localhost:
 
 ### Dependências:
 - Todas as dependências estão no arquivo package.json. Você pode instalar elas executando o seguinte comando em seu termial:<br>
-``` nmp install ```
+``` npm install ```
 -  <span style='background-color:#ffe846;'>Também será necessário estar conectado a um banco de dados MySQL local ou remoto (de preferencia a versão 5.7.36 ou superior).</span>
 -  Crie um banco de dados mysql com o nome postapp: <br>
 ``` CREATE DATABASE postapp; ```
